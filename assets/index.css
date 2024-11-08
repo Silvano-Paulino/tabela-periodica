@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    display: grid;
+    place-content: center;
+    background-color: #202e37; 
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -11,7 +17,6 @@
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: #202e37;
     padding-top: 30px;
 }
 
